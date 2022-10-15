@@ -26,7 +26,7 @@ namespace _4_1_14
                         
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < m; j++)
-                    if ((i == j) & (j == arr[i,j]))
+                    if ((arr[i, j] == i) & (arr[i,j] == j))
                         Console.WriteLine($"arr[{i}, {j}] = {arr[i, j]}");
             Console.ReadKey();
         }
